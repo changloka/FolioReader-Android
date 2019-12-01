@@ -4,29 +4,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'folioreader'
 
-    publishedGroupId = 'com.folioreader'
-    libraryName = 'FolioReader'
-    artifact = 'folioreader'
-
-    libraryDescription = 'An epub reader for Android'
-
-    siteUrl = 'https://github.com/changloka/FolioReader-Android'
-    gitUrl = 'https://github.com/changloka/FolioReader-Android.git'
-
-    libraryVersion = versions.folioreaderSdk
-
-    developerId = 'mobisystech'
-    developerName = 'Folio Reader'
-    developerEmail = 'mahavir@codetoart.com'
-
-    licenseName = 'FreeBSD License'
-    licenseUrl = 'https://en.wikipedia.org/wiki/FreeBSD_Documentation_License#License'
-    allLicenses = ["FreeBSD"]
-}
 
 android {
     useLibrary 'org.apache.http.legacy'
